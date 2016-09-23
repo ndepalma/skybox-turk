@@ -17,7 +17,7 @@
 ;;    })
 
 (defn dep-merge []
-  {:dependencies [[(symbol  "org.python/jython-standalone") "2.5.3"]]})
+  {:dependencies [[(symbol "org.python/jython-standalone") "2.5.3"]]})
 
 (defn run-script [project entry]
   (let [toMerge {:main "org.python.util.jython"}

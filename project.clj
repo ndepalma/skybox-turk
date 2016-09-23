@@ -12,14 +12,14 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojars.ghoseb/mongo-java-driver "1.1"]
                  [org.clojars.zaxtax/java-aws-mturk "1.6.2"]
-                 [org.python/jython-standalone "2.5.3"]
+                 ;; [org.python/jython-standalone "2.5.3"]
                  ]
 
   :repositories {"local" ~(str (.toURI (java.io.File. "lib")))}
-  :main org.python.util.jython
-  ;; :java-source-paths ["src/crowd"
-  ;;                     "src/utils"]
-  ;; :source-paths ["scripts/clojure/" ]
+  ;;:main org.python.util.jython
+  :java-source-paths ["src/crowd"
+                      "src/utils"]
+  :source-paths ["scripts/clojure/" ]
   :target-path "target/"
   ;; Directory in which to place AOT-compiled files. Including %s will
   ;; splice the :target-path into this value.
