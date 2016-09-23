@@ -1,5 +1,9 @@
 (ns turk.externalHIT
-  (:import crowd.turkfrastructure.HITjob))
+  (:import crowd.turkfrastructure.HITjob)
+  (:gen-class
+   :init init))
+
+(defn -init [s])
 
 ;; (deftype- ExtHIT [:title :descrip :reward :assignments :dur :keywords :lifetime :delay_app :qualif :url :frame_height]
 
