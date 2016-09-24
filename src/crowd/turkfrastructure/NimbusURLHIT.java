@@ -19,8 +19,8 @@ public abstract class NimbusURLHIT extends HITjob {
             new StringBuffer(
                              "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
                              "<ExternalQuestion xmlns=\"http://mechanicalturk.amazonaws.com" +
-                             "/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n" +
-                             renderURL() +
+                             "/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd\">\n<ExternalURL>\n" +
+                             renderURL() + "\n</ExternalURL>\n" +
                              "	<FrameHeight>"+ frameheight+"</FrameHeight>\n" +
                              "</ExternalQuestion>");
     }

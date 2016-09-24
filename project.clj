@@ -15,6 +15,7 @@
                  ;; [org.clojure/clojure "1.5.1"]
                  ;; [org.clojars.ghoseb/mongo-java-driver "1.1"]
                  [org.clojars.zaxtax/java-aws-mturk "1.6.2"]
+                 [log4j "1.2.17"]
                  ;; [org.python/jython-standalone "2.5.3"]
                  ]
 

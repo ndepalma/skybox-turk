@@ -2,4 +2,4 @@
 
 CP=`lein classpath`
 
-jython -Dpython.path=$CP
+jython -Dpython.path=$CP -i $1
