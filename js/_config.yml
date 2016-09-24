@@ -21,29 +21,11 @@ url: "http://127.0.0.1:4000/"
 # Nimbus host
 # url: "https://nimbus.media.mit.edu" # the base hostname & protocol for your site
 
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
 markdown: kramdown
 
-
-
-
-
-# servleturl: "http://127.0.0.1:8080"
-# # servleturl: "https://nimbus.media.mit.edu/servlets/engage-1.0-SNAPSHOT-standalone/"
-
-# # Build settings
-# markdown: kramdown
-# #markdown: redcarpet
-# #markdown_ext:  markdown,mkdown,mkdn,mkd,md
-
-
-# # optional
-
-# redcarpet:
-#   extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
+servleturl: "http://127.0.0.1:8080"
+# servleturl: "https://nimbus.media.mit.edu/servlets/engage-1.0-SNAPSHOT-standalone/"
