@@ -1,0 +1,41 @@
+# Site settings
+title: Nimbus's story collection subsystem
+email: ndepalma@gmail.com
+description: This subsystem is a data collection effort to understand story better.
+
+# Base URL of Nimbus
+# baseurl: "/story/" # the subpath of your site, e.g. /blog/
+# Base URL of Media Lab
+# baseurl: "/~ndepalma/test/"
+# Base URL of HTTPKit
+# baseurl: "/static/story-collect/_site/"
+# Base URL of Jekyll
+baseurl: "/"
+
+# Jekyll Hosting
+url: "http://127.0.0.1:4000"
+# HTTPKit hosting
+# url: "http://127.0.0.1:8080"
+# Media Lab Host
+# url: "https://web.media.mit.edu"
+# Nimbus host
+# url: "https://nimbus.media.mit.edu" # the base hostname & protocol for your site
+
+servleturl: "http://127.0.0.1:8080"
+# servleturl: "https://nimbus.media.mit.edu/servlets/engage-1.0-SNAPSHOT-standalone/"
+
+# Build settings
+markdown: kramdown
+#markdown: redcarpet
+#markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+ftp_host: 'nimbus.media.mit.edu'
+ftp_dir: '/home/ndepalma/www/story/'
+ftp_passive: true
+ftp_secure: true
+
+# optional
+ftp_username: 'ndepalma'     # default read from stdin
+
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
