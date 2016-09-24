@@ -15,6 +15,6 @@ Skybox-turk is a jarred up set of utilities to perform crowdsourcing research fo
 
 # Run it 
 * Interactive prompt
-** ./jython 
+ * ./jython 
 * or if you'd like to load a previously written script you can run:
-** ./jython <script.py>
+ * ./jython <script.py>
