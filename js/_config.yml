@@ -5,10 +5,8 @@ description: This subsystem is a data collection effort to understand story bett
 
 # Base URL of Nimbus
 # baseurl: "/story/" # the subpath of your site, e.g. /blog/
-# Base URL of Media Lab
-# baseurl: "/~ndepalma/test/"
 # Base URL of HTTPKit
-# baseurl: "/static/story-collect/_site/"
+# baseurl: "/static/js/_site/"
 # Base URL of Jekyll
 baseurl: "/"
 
@@ -29,13 +27,8 @@ markdown: kramdown
 #markdown: redcarpet
 #markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
-ftp_host: 'nimbus.media.mit.edu'
-ftp_dir: '/home/ndepalma/www/story/'
-ftp_passive: true
-ftp_secure: true
 
 # optional
-ftp_username: 'ndepalma'     # default read from stdin
 
 redcarpet:
   extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
