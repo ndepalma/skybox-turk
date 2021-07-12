@@ -5,8 +5,8 @@ Skybox-turk is a jarred up set of utilities to perform crowdsourcing research fo
 
 # Installation & Build
 * Clone the repository skybox-turk from my github.
-* Download leiningen and install it [http://leiningen.org/#install]
-* Get the access key and secret key from [http://www.aws.amazon.com]
+* Download leiningen and install it. You will need [leiningen 2.7.1](https://raw.githubusercontent.com/technomancy/leiningen/2.7.1/bin/lein) due to TLS issues. Put this in your ~/bin directory.
+* Get the access key and secret key from [your amazon account](http://www.aws.amazon.com)
 * My Account in top right
 ** Security Credentials
 ** Access Key and Secret Key
