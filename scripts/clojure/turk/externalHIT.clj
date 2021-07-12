@@ -5,9 +5,11 @@
 
 (defn -init [s])
 
+;; Ignore this. I was playing around with simplifying the types allowed. 
 ;; (deftype- ExtHIT [:title :descrip :reward :assignments :dur :keywords :lifetime :delay_app :qualif :url :frame_height]
 
 (defn wrap-extquest [^String url ^Integer frameheight]
+  "Wraps the question in the headers and footers of the XML schema to publish to mechanical turk. This is a fully clojure based implementation."
   (proxy [HITjob] []
     (render []
       (java.lang.StringBuffer.
